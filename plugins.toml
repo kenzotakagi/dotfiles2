@@ -30,8 +30,19 @@ repo = 'osyo-manga/vim-anzu'
 [[plugins]]
 repo = 'rhysd/clever-f.vim'
 
+# 補完
 [[plugins]]
 repo = 'Shougo/neocomplcache.vim'
 
+# 補完
 [[plugins]]
 repo = 'Shougo/neocomplcache-rsense.vim'
+
+# 静的解析
+[[plugins]]
+repo = 'scrooloose/syntastic'
+
+# 閉じ括弧とか補完
+[[plugins]]
+repo = 'cohama/lexima.vim'
+on_i = 1
